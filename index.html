@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title> Currency Converter</title>
+    </head>
+ <body>
+    <div class="container">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src="https://www.countryflagicons.com/FLAT/64/US.png" alt="flag">
+                        <select>
+                            <!--Option tag are inserted from Javascript-->
+                        </select>
+                    </div>
+                </div>
+                <div class="icon">
+                    <box-icon name='transfer-alt'></box-icon>
+                </div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="https://www.countryflagicons.com/FLAT/64/GB.png" alt="flag">
+                        <select>
+                            <!--Option tag are inserted from Javascript-->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate">Getting Ready....</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+</body>
+    <script src="./country.js"></script>
+    <script src="./app.js"></script>
+</html>
